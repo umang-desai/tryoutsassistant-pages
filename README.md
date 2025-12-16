@@ -12,13 +12,13 @@ Public website for TryoutsAssistant iOS app, hosted via GitHub Pages.
 
 1. Push this repo to GitHub
 2. Go to repo Settings → Pages
-3. Set Source to "Deploy from a branch" and select `main` branch
-4. Your site will be live at `https://<username>.github.io/tryoutsassistant-pages/`
+3. Set Source to "Deploy from a branch" and select `develop` branch
+4. Your site will be live at `https://umang-desai.github.io/tryoutsassistant-pages/`
 
 ## URLs for App Store Connect
 
 After enabling GitHub Pages, use these URLs in App Store Connect:
 
-- **Privacy Policy URL**: `https://<username>.github.io/tryoutsassistant-pages/privacy.html`
-- **Support URL**: `https://<username>.github.io/tryoutsassistant-pages/support.html`
-- **Marketing URL** (optional): `https://<username>.github.io/tryoutsassistant-pages/`
+- **Privacy Policy URL**: `https://umang-desai.github.io/tryoutsassistant-pages/privacy.html`
+- **Support URL**: `https://umang-desai.github.io/tryoutsassistant-pages/support.html`
+- **Marketing URL** (optional): `https://umang-desai.github.io/tryoutsassistant-pages/`
