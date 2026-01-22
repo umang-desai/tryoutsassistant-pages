@@ -4,9 +4,10 @@ Public website for the Tryout Assistant iOS app, hosted via GitHub Pages.
 
 ## Pages
 
-- **index.html** - Landing page / marketing site
-- **privacy.html** - Privacy Policy (required for App Store)
-- **support.html** - Support page with FAQ and contact info
+- **docs/** - Canonical website content (GitHub Pages source)
+- **index.html** - Redirect to `docs/` (developer convenience)
+- **privacy.html** - Redirect to `docs/privacy.html`
+- **support.html** - Redirect to `docs/support.html`
 
 ## Setup
 
