@@ -1,6 +1,6 @@
-# TryoutsAssistant Pages
+# Tryout Assistant Pages
 
-Public website for TryoutsAssistant iOS app, hosted via GitHub Pages.
+Public website for the Tryout Assistant iOS app, hosted via GitHub Pages.
 
 ## Pages
 
