@@ -15,7 +15,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Tryout Assistant — Voice notes for sports tryouts" />
   <meta property="og:description" content="Run tryouts. Speak notes. Decide faster. Fast transcription, jersey-number tagging, roster import, and team building—private and offline-first." />
-  <meta property="og:image" content="assets/screenshots/iphone-capture.png" />
+  <meta property="og:image" content="https://umang-desai.github.io/tryoutsassistant-pages/assets/screenshots/iphone-capture.png" />
   <meta property="og:image:alt" content="Tryout Assistant screenshot" />
   <meta name="twitter:card" content="summary_large_image" />
 </head>
@@ -29,7 +29,10 @@
           <img src="assets/icon.png" alt="" />
           <span>Tryout Assistant</span>
         </a>
-        <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" type="button" aria-controls="primary-nav" aria-expanded="false" aria-label="Toggle navigation menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 6h18"/><path d="M3 12h18"/><path d="M3 18h18"/></svg>
+        </button>
+        <nav class="nav" id="primary-nav" aria-label="Primary">
           <a href="#features">Features</a>
           <a href="#screenshots">Screenshots</a>
           <a href="#how-it-works">How it works</a>
