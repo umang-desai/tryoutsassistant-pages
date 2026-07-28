@@ -1,4 +1,30 @@
 (() => {
+  const toggle = document.querySelector(".nav-toggle");
+  const inner = toggle?.closest(".topbar-inner");
+  if (toggle && inner) {
+    toggle.addEventListener("click", () => {
+      const open = inner.classList.toggle("menu-active");
+      toggle.setAttribute("aria-expanded", String(open));
+      document.body.style.overflow = open ? "hidden" : "";
+    });
+    inner.querySelectorAll(".nav a").forEach((link) => {
+      link.addEventListener("click", () => {
+        inner.classList.remove("menu-active");
+        toggle.setAttribute("aria-expanded", "false");
+        document.body.style.overflow = "";
+      });
+    });
+    window.addEventListener("resize", () => {
+      if (window.innerWidth > 980 && inner.classList.contains("menu-active")) {
+        inner.classList.remove("menu-active");
+        toggle.setAttribute("aria-expanded", "false");
+        document.body.style.overflow = "";
+      }
+    });
+  }
+})();
+
+(() => {
   const lightbox = document.querySelector("dialog.lightbox");
   if (!lightbox) return;
 
